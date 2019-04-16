@@ -5,8 +5,8 @@ metadata:
   name: ghost
   namespace: default
   annotations:
-    flux.weave.works/automate: "true"
-    flux.weave.works/ignore: "true"
+    flux.weave.works/automate: "false"
+    flux.weave.works/ignore: "false"
     flux.weave.works/tag.chart-image: glob:1.21.*
 spec:
   releaseName: ghost
